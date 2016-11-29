@@ -1,0 +1,51 @@
+﻿Creating a Repo
+
+    git init
+    git add -A or git add .
+    git commit -m “Your Message”
+    git remote add origin http………. (G.R.A.O)
+    git pull origin master --allow-unrelated-histories
+
+    ESC :wq to exit from vim editor
+
+    git push -u origin master (G.P.U.O.M)
+     
+     
+
+
+Branching and Merging
+
+    git checkout -b __branchname – creates a branch and switches over to that branch
+    git checkout master – switch to the master
+    git merge _branchname – merges the branch with the master
+    git branch -d branchname – deletes the branch since we don’t need it anymore
+
+*To get back into a branch type git checkout branchname
+
+Cloning
+
+    git clone remote location/url clonename – gets a copy from the remote location and stores it in the clonename directory
+    cd clonename
+    git remote -v – will list the remote location of where the files came from.
+    git fetch – Fetch any new changes that may have been made to the remote (you have to be in the clonename directory before you type git fetch)
+    git merge origin/master – brings your local master branch up to speed with the most recent commit on the remote that you fetched.
+    git log – to see changes
+
+Extras
+
+    You can type git log to see a list of commits in case you need to go back to a previous version.
+    Type git reset 7 digit SHA to erase all previous commits. git log will display the commit that you reset and every commits that comes after.
+    You can type git show HEAD to see your most recent commit.
+    You can type git diff to see your most current changes and compare it to the last commit.
+    Type git checkout HEAD filename will restore that file back to the last commit.
+    You can type git reset HEAD filename to remove that file from the staging area (git add) in case you don’t want to commit that change.
+
+
+
+
+
+Who am I
+git config --list
+
+git config --global user.name "your name"
+git config --global user.email "youremail@mail.com"
