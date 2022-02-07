@@ -3,12 +3,9 @@
     git init
     git add -A or git add .
     git commit -m “Your Message”
+    git branch -M main
     git remote add origin http………. (G.R.A.O)
-    git pull origin master --allow-unrelated-histories
-
-    ESC :wq to exit from vim editor
-
-    git push -u origin master (G.P.U.O.M)
+    git push -u origin main (G.P.U.O.M)
      
      
 
