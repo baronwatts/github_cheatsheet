@@ -7,6 +7,11 @@
     git remote add origin http………. (G.R.A.O)
     git push -u origin main (G.P.U.O.M)
      
+  
+Push to existing
+    git remote add origin http.....
+    git branch -M main
+    git push -u origin main
      
 
 
